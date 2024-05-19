@@ -43,7 +43,7 @@ export default async function Home() {
      </div>
     <div className="bg-red-100 h-autu w-full p-12 flex flex-col  ">
        <h2 className="text-2xl font-bold uppercase text-center">Student Information</h2>
-      <div className="flex justify-evenly gap-8 pt-20">
+      <div className="flex flex-col md:flex-row justify-evenly gap-8 pt-20">
       <div>
          <p> Age: {dataStudent.age}</p>
          <p>Date Of Birth:{dataStudent.dob}</p>
